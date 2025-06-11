@@ -1,0 +1,165 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="demo_14_4.MainWindow"
+		x:CompileBindings="False"
+        Title="demo_14_4">
+	<DockPanel>
+		<StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Spacing="10" Margin="5" x:Name="ToolPanel">
+			<TextBlock Text="Выбрано: 0" x:Name="SelectedCountText"/>
+			<Button Content="Выход" Click="LogoutButton_Click" />
+		</StackPanel>
+		<StackPanel
+			DockPanel.Dock="Top"
+			Spacing="50"
+			HorizontalAlignment="Center"
+			Height="40"
+			Orientation="Horizontal">
+			<TextBox
+				TextChanging="SearchBoxChanging"
+				x:Name="SearchBox"
+				Width="250"/>
+			<ComboBox
+				SelectionChanged="SortBox_SelectionChanged"
+				x:Name="SortBox"
+				Height="40"
+				Width="175"
+				VerticalAlignment="Center">
+				<ComboBoxItem>
+					Без сортировки
+				</ComboBoxItem>
+				<ComboBoxItem>
+					Наименование А-Я
+				</ComboBoxItem>
+				<ComboBoxItem>
+					Наименование Я-А
+				</ComboBoxItem>
+				<ComboBoxItem>
+					Номер цеха ↓
+				</ComboBoxItem>
+				<ComboBoxItem>
+					Номер цеха ↑
+				</ComboBoxItem>
+				<ComboBoxItem>
+					Стоимсоть для агента ↓
+				</ComboBoxItem>
+				<ComboBoxItem>
+					Стоимсоть для агента ↑
+				</ComboBoxItem>
+			</ComboBox>
+			<ComboBox
+				SelectionChanged="FilterBox_SelectionChanged"
+				x:Name="FilterBox"
+				Height="40"
+				Width="175"
+				VerticalAlignment="Center">
+			</ComboBox>
+			<TextBlock/>
+			
+		</StackPanel>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+			<ListBox x:Name="ProductBox" Grid.Row="0" SelectionMode="Multiple">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<Border BorderBrush="{Binding BackgroundColor}"
+								BorderThickness="3"
+								Padding="15"
+								Height="150">
+							<Grid>
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition Width="Auto"/>
+									<ColumnDefinition Width="*"/>
+									<ColumnDefinition Width="Auto"/>
+								</Grid.ColumnDefinitions>
+								<ItemsControl
+										ItemsSource="{Binding Images}"
+										Width="200"
+										Height="200">
+									<ItemsControl.ItemsPanel>
+										<ItemsPanelTemplate>
+											<StackPanel Orientation="Horizontal"/>
+										</ItemsPanelTemplate>
+									</ItemsControl.ItemsPanel>
+									<ItemsControl.ItemTemplate>
+										<DataTemplate>
+											<Image Source="{Binding}"
+												   Width="100"
+												   Height="100"
+												   Margin="2"/>
+										</DataTemplate>
+									</ItemsControl.ItemTemplate>
+								</ItemsControl>
+								<StackPanel Grid.Column="1"
+											VerticalAlignment="Center"
+											Margin="10,0">
+									<TextBlock>
+										<Run Text="{Binding ProductType.Title}"/>
+										<Run Text=" | "/>
+										<Run Text="{Binding Title}"/>
+										<Run Text=" |  Цех:"/>
+										<Run Text="{Binding ProductionWorkshopNumber}"/>
+									</TextBlock>
+									<TextBlock Text="{Binding ArticleNumber}"/>
+
+									<StackPanel Orientation="Horizontal">
+										<TextBlock Margin="0,8.8"
+												Text="Материалы:"
+												   VerticalAlignment="Top"/>
+										<ListBox ItemsSource="{Binding ProductMaterials}" BorderThickness="0"
+												 Padding="0">
+											<ListBox.ItemsPanel>
+												<ItemsPanelTemplate>
+													<UniformGrid Columns="4"/>
+												</ItemsPanelTemplate>
+											</ListBox.ItemsPanel>
+											<ListBox.ItemTemplate>
+												<DataTemplate>
+													<TextPresenter TextWrapping="Wrap" Text="{Binding Material.Title}"/>
+												</DataTemplate>
+											</ListBox.ItemTemplate>
+										</ListBox>
+									</StackPanel>
+								</StackPanel>
+								<StackPanel Grid.Column="2"
+											VerticalAlignment="Top"
+											HorizontalAlignment="Right"
+											Margin="0,17">
+									<TextBlock>
+										<Run Text="{Binding getSum}"/>
+										<Run Text=" рублей"/>
+									</TextBlock>
+									<TextBlock HorizontalAlignment="Right">
+										<Run Text="{Binding MinCostForAgent}"/>
+										<Run Text="руб.Агент"/>
+									</TextBlock>
+								</StackPanel>
+							</Grid>
+						</Border>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+				<ListBox.ContextMenu>
+					<ContextMenu>
+						<MenuItem x:Name="DeleteMenuItem"
+								  Header="Удалить"
+								  Click="ProductItemClick"
+								  HorizontalAlignment="Center"
+								  VerticalAlignment="Center"/>
+
+					</ContextMenu>
+				</ListBox.ContextMenu>
+			</ListBox>
+			<StackPanel Grid.Row="1"
+						Orientation="Horizontal"
+						HorizontalAlignment="Right"
+						Margin="0,10,20,10"
+						Spacing="5"
+						x:Name="PaginationPanel"/>
+		</Grid>
+	</DockPanel>
+</Window>

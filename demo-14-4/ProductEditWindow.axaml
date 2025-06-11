@@ -1,0 +1,97 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="700"
+        x:Class="demo_14_4.ProductEditWindow"
+        x:CompileBindings="False"
+        Title="Добавление продукции" Width="600" Height="700">
+	<Grid Margin="10">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+		<TextBlock Text="Артикул:" Grid.Row="0" Grid.Column="0" Margin="0,0,10,5" VerticalAlignment="Center"/>
+		<TextBox Text="{Binding ArticleNumber}" Grid.Row="0" Grid.Column="1" Margin="0,0,0,5"/>
+		<TextBlock Text="Наименование:" Grid.Row="1" Grid.Column="0" Margin="0,0,10,5" VerticalAlignment="Center"/>
+		<TextBox Text="{Binding ProductTitle}" Grid.Row="1" Grid.Column="1" Margin="0,0,0,5"/>
+		<TextBlock Text="Тип продукта:" Grid.Row="2" Grid.Column="0" Margin="0,0,10,5" VerticalAlignment="Center"/>
+		<ComboBox ItemsSource="{Binding ProductTypes}" SelectedItem="{Binding SelectedProductType}"
+                  Grid.Row="2" Grid.Column="1" Margin="0,0,0,5"/>
+		<TextBlock Text="Изображения:" Grid.Row="3" Grid.Column="0" Margin="0,0,10,5" VerticalAlignment="Top"/>
+		<StackPanel Grid.Row="3" Grid.Column="1" Margin="0,0,0,5">
+			<ItemsControl ItemsSource="{Binding ProductImages}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate>
+						<Grid Margin="0,5">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="Auto"/>
+								<ColumnDefinition Width="*"/>
+							</Grid.ColumnDefinitions>
+							<Image Source="{Binding}" Width="100" Height="100" Margin="0,0,10,0"/>
+							<Button Grid.Column="1" Content="Удалить" Click="RemoveImage_Click"
+                                    VerticalAlignment="Center" HorizontalAlignment="Left"
+                                    CommandParameter="{Binding}"/>
+						</Grid>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+			<Button Content="Добавить изображения" Click="SelectImages_Click" Margin="0,5"/>
+		</StackPanel>
+		<TextBlock Text="Количество человек:" Grid.Row="4" Grid.Column="0" Margin="0,0,10,5" VerticalAlignment="Center"/>
+		<NumericUpDown Value="{Binding ProductionPersonCount}" Minimum="1" Grid.Row="4" Grid.Column="1" Margin="0,0,0,5"/>
+		<TextBlock Text="Номер цеха:" Grid.Row="5" Grid.Column="0" Margin="0,0,10,5" VerticalAlignment="Center"/>
+		<NumericUpDown Value="{Binding ProductionWorkshopNumber}" Minimum="1" Grid.Row="5" Grid.Column="1" Margin="0,0,0,5"/>
+		<TextBlock Text="Минимальная стоимость:" Grid.Row="6" Grid.Column="0" Margin="0,0,10,5" VerticalAlignment="Center"/>
+		<NumericUpDown Value="{Binding MinCostForAgent}" Minimum="0" FormatString="F2"
+                       Grid.Row="6" Grid.Column="1" Margin="0,0,0,5"/>
+		<TextBlock Text="Описание:" Grid.Row="7" Grid.Column="0" Margin="0,0,10,5" VerticalAlignment="Top"/>
+		<TextBox Text="{Binding Description}" AcceptsReturn="True" TextWrapping="Wrap"
+                 Grid.Row="7" Grid.Column="1" Margin="0,0,0,5" Height="100"/>
+		<TextBlock Text="Материалы:" Grid.Row="8" Grid.Column="0" Margin="0,0,10,5" VerticalAlignment="Top"/>
+		<Grid Grid.Row="8" Grid.Column="1" Margin="0,0,0,5">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+			<StackPanel Grid.Row="0" Orientation="Horizontal" Spacing="5" Margin="0,0,0,5">
+				<ComboBox x:Name="MaterialComboBox" ItemsSource="{Binding AvailableMaterials}"
+                          DisplayMemberBinding="{Binding Title}" Width="200"/>
+				<TextBox x:Name="MaterialCountTextBox" Text="1" Width="50"/>
+				<Button Content="Добавить" Click="AddMaterial_Click"/>
+			</StackPanel>
+			<DataGrid Grid.Row="1" ItemsSource="{Binding Materials}" AutoGenerateColumns="False" IsReadOnly="True">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Материал" Binding="{Binding Material.Title}" Width="*"/>
+					<DataGridTextColumn Header="Количество" Binding="{Binding Count}" Width="Auto"/>
+					<DataGridTemplateColumn Width="Auto">
+						<DataGridTemplateColumn.CellTemplate>
+							<DataTemplate>
+								<Button Content="Удалить"
+										Click="RemoveMaterial_Click"
+										CommandParameter="{Binding}"
+										HorizontalAlignment="Center"/>
+							</DataTemplate>
+						</DataGridTemplateColumn.CellTemplate>
+					</DataGridTemplateColumn>
+				</DataGrid.Columns>
+			</DataGrid>
+		</Grid>
+		<StackPanel Grid.Row="9" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="10">
+			<Button Content="Сохранить" Click="Save_Click" IsEnabled="{Binding CanSave}" Width="100"/>
+			<Button Content="Отмена" Click="Cancel_Click" Width="100"/>
+		</StackPanel>
+	</Grid>
+</Window>
