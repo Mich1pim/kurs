@@ -16,11 +16,23 @@ namespace demo_14_4
 
         private bool ValidateCredentials(string login, string password)
         {
+            if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(password))
+            {
+                ErrorText.Text = "Все поля должны быть заполнены";
+                return false;
+            }
+
             if (!Regex.IsMatch(login, @"^[^@\s]+@[^@\s]+\.[^@\s]+$") ||
                 (!login.EndsWith(".com", StringComparison.OrdinalIgnoreCase) &&
                  !login.EndsWith(".ru", StringComparison.OrdinalIgnoreCase)))
             {
                 ErrorText.Text = "Логин должен быть email (содержать @ и заканчиваться на .com или .ru)";
+                return false;
+            }
+
+            if (password.Length < 6)
+            {
+                ErrorText.Text = "Пароль должен содержать минимум 6 символов";
                 return false;
             }
 
@@ -35,13 +47,13 @@ namespace demo_14_4
 
         private void RegisterButton_Click(object sender, RoutedEventArgs e)
         {
-            var login = UsernameTextBox.Text.Trim();
-            var password = PasswordTextBox.Text;
-            var isAdmin = IsAdminCheckBox.IsChecked == true;
+            var login = UsernameTextBox.Text?.Trim() ?? string.Empty;
+            var password = PasswordTextBox.Text ?? string.Empty;
+            var isAdmin = IsAdminCheckBox.IsChecked ?? false;
 
             if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(password))
             {
-                ErrorText.Text = "Заполните все поля";
+                ErrorText.Text = "Все поля должны быть заполнены";
                 ErrorText.IsVisible = true;
                 return;
             }
@@ -52,26 +64,34 @@ namespace demo_14_4
                 return;
             }
 
-            using var context = new MydatabaseContext();
-
-            if (context.Users.Any(u => u.Login == login))
+            try
             {
-                ErrorText.Text = "Пользователь с таким логином уже существует";
-                ErrorText.IsVisible = true;
-                return;
+                using var context = new MydatabaseContext();
+
+                if (context.Users.Any(u => u.Login == login))
+                {
+                    ErrorText.Text = "Пользователь с таким логином уже существует";
+                    ErrorText.IsVisible = true;
+                    return;
+                }
+
+                var user = new User
+                {
+                    Login = login,
+                    Password = password,
+                    Admin = isAdmin
+                };
+
+                context.Users.Add(user);
+                context.SaveChanges();
+
+                this.Close();
             }
-
-            var user = new User
+            catch (Exception ex)
             {
-                Login = login,
-                Password = password,
-                Admin = isAdmin
-            };
-
-            context.Users.Add(user);
-            context.SaveChanges();
-
-            this.Close();
+                ErrorText.Text = $"Ошибка регистрации: {ex.Message}";
+                ErrorText.IsVisible = true;
+            }
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)

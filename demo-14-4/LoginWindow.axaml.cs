@@ -19,6 +19,12 @@ namespace demo_14_4
 
         private bool ValidateCredentials(string login, string password)
         {
+            if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(password))
+            {
+                ErrorText.Text = "Логин и пароль не могут быть пустыми";
+                return false;
+            }
+
             if (!Regex.IsMatch(login, @"^[^@\s]+@[^@\s]+\.[^@\s]+$") ||
                 (!login.EndsWith(".com", StringComparison.OrdinalIgnoreCase) &&
                  !login.EndsWith(".ru", StringComparison.OrdinalIgnoreCase)))

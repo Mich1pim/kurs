@@ -20,6 +20,7 @@
 			<TextBox
 				TextChanging="SearchBoxChanging"
 				x:Name="SearchBox"
+				Watermark="Поиск"
 				Width="250"/>
 			<ComboBox
 				SelectionChanged="SortBox_SelectionChanged"
