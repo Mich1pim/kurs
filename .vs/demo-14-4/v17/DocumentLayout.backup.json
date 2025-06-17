@@ -7,52 +7,56 @@
       "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\registerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\registerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\changecostdialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\changecostdialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\loginwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\loginwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\models\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\models\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\loginwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\loginwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\changecostdialog.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\changecostdialog.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\models\\mydatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\models\\mydatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\registerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\registerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\demo-14-4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\demo-14-4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\registerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\registerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\registerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\registerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\loginwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\loginwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\models\\productmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\models\\productmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\changecostdialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\changecostdialog.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\models\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\models\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\changecostdialog.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\changecostdialog.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\models\\mydatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\models\\mydatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\producteditwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,10 +114,6 @@
       "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\models\\productsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\models\\productmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\models\\productmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|c:\\users\\\u0438\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\models\\agentpriorityhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8D9FFEC-AAD1-4CEF-8ABB-FC7D19E42413}|demo-14-4\\demo-14-4.csproj|solutionrelative:demo-14-4\\models\\agentpriorityhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -133,7 +133,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -141,149 +141,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChangeCostDialog.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\ChangeCostDialog.axaml.cs",
-              "RelativeDocumentMoniker": "demo-14-4\\ChangeCostDialog.axaml.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\ChangeCostDialog.axaml.cs",
-              "RelativeToolTip": "demo-14-4\\ChangeCostDialog.axaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA3wA4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:12:42.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\LoginWindow.axaml.cs",
-              "RelativeDocumentMoniker": "demo-14-4\\LoginWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\LoginWindow.axaml.cs",
-              "RelativeToolTip": "demo-14-4\\LoginWindow.axaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCMAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T11:25:18.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "demo-14-4\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\MainWindow.axaml",
-              "RelativeToolTip": "demo-14-4\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-14T12:12:09.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "demo-14-4\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\MainWindow.axaml.cs",
-              "RelativeToolTip": "demo-14-4\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAcwLsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:12:05.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductType.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\ProductType.cs",
-              "RelativeDocumentMoniker": "demo-14-4\\Models\\ProductType.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\ProductType.cs",
-              "RelativeToolTip": "demo-14-4\\Models\\ProductType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T09:31:45.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\RegisterWindow.axaml.cs",
-              "RelativeDocumentMoniker": "demo-14-4\\RegisterWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\RegisterWindow.axaml.cs",
-              "RelativeToolTip": "demo-14-4\\RegisterWindow.axaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T15:54:37.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "LoginWindow.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\LoginWindow.axaml",
               "RelativeDocumentMoniker": "demo-14-4\\LoginWindow.axaml",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\LoginWindow.axaml",
               "RelativeToolTip": "demo-14-4\\LoginWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-03T11:25:18.174Z"
+              "WhenOpened": "2025-06-03T11:25:18.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ChangeCostDialog.axaml",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\ChangeCostDialog.axaml",
-              "RelativeDocumentMoniker": "demo-14-4\\ChangeCostDialog.axaml",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\ChangeCostDialog.axaml",
-              "RelativeToolTip": "demo-14-4\\ChangeCostDialog.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-03T14:12:42.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\App.axaml.cs",
-              "RelativeDocumentMoniker": "demo-14-4\\App.axaml.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\App.axaml.cs",
-              "RelativeToolTip": "demo-14-4\\App.axaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "RegisterWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\RegisterWindow.axaml.cs",
+              "RelativeDocumentMoniker": "demo-14-4\\RegisterWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\RegisterWindow.axaml.cs",
+              "RelativeToolTip": "demo-14-4\\RegisterWindow.axaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAC4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:14:55.376Z"
+              "WhenOpened": "2025-06-03T15:54:37.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MydatabaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\MydatabaseContext.cs",
-              "RelativeDocumentMoniker": "demo-14-4\\Models\\MydatabaseContext.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\MydatabaseContext.cs",
-              "RelativeToolTip": "demo-14-4\\Models\\MydatabaseContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:58:36.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\RegisterWindow.axaml",
-              "RelativeDocumentMoniker": "demo-14-4\\RegisterWindow.axaml",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\RegisterWindow.axaml",
-              "RelativeToolTip": "demo-14-4\\RegisterWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-03T15:54:38.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\User.cs",
-              "RelativeDocumentMoniker": "demo-14-4\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\User.cs",
-              "RelativeToolTip": "demo-14-4\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T11:23:55.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "demo-14-4.csproj",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\demo-14-4.csproj",
               "RelativeDocumentMoniker": "demo-14-4\\demo-14-4.csproj",
@@ -296,7 +179,140 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\LoginWindow.axaml.cs",
+              "RelativeDocumentMoniker": "demo-14-4\\LoginWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\LoginWindow.axaml.cs*",
+              "RelativeToolTip": "demo-14-4\\LoginWindow.axaml.cs*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwDoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:25:18.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "demo-14-4\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\MainWindow.axaml.cs",
+              "RelativeToolTip": "demo-14-4\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwFwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:12:05.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\RegisterWindow.axaml",
+              "RelativeDocumentMoniker": "demo-14-4\\RegisterWindow.axaml",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\RegisterWindow.axaml",
+              "RelativeToolTip": "demo-14-4\\RegisterWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-03T15:54:38.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\App.axaml.cs",
+              "RelativeDocumentMoniker": "demo-14-4\\App.axaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\App.axaml.cs",
+              "RelativeToolTip": "demo-14-4\\App.axaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAywBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:14:55.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\User.cs",
+              "RelativeDocumentMoniker": "demo-14-4\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\User.cs",
+              "RelativeToolTip": "demo-14-4\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:23:55.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\ProductMaterial.cs",
+              "RelativeDocumentMoniker": "demo-14-4\\Models\\ProductMaterial.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\ProductMaterial.cs",
+              "RelativeToolTip": "demo-14-4\\Models\\ProductMaterial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T11:39:45.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "demo-14-4\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\MainWindow.axaml",
+              "RelativeToolTip": "demo-14-4\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T12:12:09.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductType.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\ProductType.cs",
+              "RelativeDocumentMoniker": "demo-14-4\\Models\\ProductType.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\ProductType.cs",
+              "RelativeToolTip": "demo-14-4\\Models\\ProductType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T09:31:45.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChangeCostDialog.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\ChangeCostDialog.axaml.cs",
+              "RelativeDocumentMoniker": "demo-14-4\\ChangeCostDialog.axaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\ChangeCostDialog.axaml.cs",
+              "RelativeToolTip": "demo-14-4\\ChangeCostDialog.axaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:12:42.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangeCostDialog.axaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\ChangeCostDialog.axaml",
+              "RelativeDocumentMoniker": "demo-14-4\\ChangeCostDialog.axaml",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\ChangeCostDialog.axaml",
+              "RelativeToolTip": "demo-14-4\\ChangeCostDialog.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-03T14:12:42.898Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "MydatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\MydatabaseContext.cs",
+              "RelativeDocumentMoniker": "demo-14-4\\Models\\MydatabaseContext.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\MydatabaseContext.cs",
+              "RelativeToolTip": "demo-14-4\\Models\\MydatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T11:58:36.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ProductEditWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\ProductEditWindow.axaml.cs",
               "RelativeDocumentMoniker": "demo-14-4\\ProductEditWindow.axaml.cs",
@@ -308,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ProductEditWindow.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\ProductEditWindow.axaml",
               "RelativeDocumentMoniker": "demo-14-4\\ProductEditWindow.axaml",
@@ -319,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "App.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\App.axaml",
               "RelativeDocumentMoniker": "demo-14-4\\App.axaml",
@@ -330,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\Product.cs",
               "RelativeDocumentMoniker": "demo-14-4\\Models\\Product.cs",
@@ -342,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Agent.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\Agent.cs",
               "RelativeDocumentMoniker": "demo-14-4\\Models\\Agent.cs",
@@ -354,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "MessageBox.axaml",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\MessageBox.axaml",
               "RelativeDocumentMoniker": "demo-14-4\\MessageBox.axaml",
@@ -365,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "MessageBox.axaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\MessageBox.axaml.cs",
               "RelativeDocumentMoniker": "demo-14-4\\MessageBox.axaml.cs",
@@ -377,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "app.manifest",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\app.manifest",
               "RelativeDocumentMoniker": "demo-14-4\\app.manifest",
@@ -389,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "demo-14-4\\Models\\ProductImage.cs",
@@ -401,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ProductCostHistory.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\ProductCostHistory.cs",
               "RelativeDocumentMoniker": "demo-14-4\\Models\\ProductCostHistory.cs",
@@ -413,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Supplier.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\Supplier.cs",
               "RelativeDocumentMoniker": "demo-14-4\\Models\\Supplier.cs",
@@ -425,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Program.cs",
               "RelativeDocumentMoniker": "demo-14-4\\Program.cs",
@@ -437,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ProductSale.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\ProductSale.cs",
               "RelativeDocumentMoniker": "demo-14-4\\Models\\ProductSale.cs",
@@ -446,18 +462,6 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T11:15:37.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ProductMaterial.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\ProductMaterial.cs",
-              "RelativeDocumentMoniker": "demo-14-4\\Models\\ProductMaterial.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F\\source\\repos\\demo-14-4\\demo-14-4\\Models\\ProductMaterial.cs",
-              "RelativeToolTip": "demo-14-4\\Models\\ProductMaterial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:39:45.901Z"
             },
             {
               "$type": "Document",
@@ -497,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",

@@ -14,6 +14,8 @@ using ClosedXML.Excel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Diagnostics;
+using Avalonia.Controls.ApplicationLifetimes;
+using Avalonia;
 
 namespace demo_14_4
 {
@@ -79,8 +81,33 @@ namespace demo_14_4
         private void LogoutButton_Click(object sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
             var loginWindow = new LoginWindow();
+
+            loginWindow.LoginSucceeded += (_, isAdmin) =>
+            {
+                var newMainWindow = new MainWindow(isAdmin);
+
+                if (Application.Current.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+                {
+                    desktop.MainWindow = newMainWindow;
+                    newMainWindow.Show();
+                }
+
+                this.Close();
+                loginWindow.Close();
+            };
+
+            loginWindow.LoginCancelled += (_, _) =>
+            {
+                loginWindow.Close();
+                if (Application.Current.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+                {
+                    desktop.Shutdown();
+                }
+            };
+
             loginWindow.Show();
 
+            
             this.Close();
         }
 
@@ -90,6 +117,7 @@ namespace demo_14_4
             FilterBox.ItemsSource = productTypes;
             SortBox.SelectedIndex = 0;
             FilterBox.SelectedIndex = 0;
+            ProductBox.SelectionChanged += ProductBox_SelectionChanged;
             var menuItem = this.FindControl<MenuItem>("DeleteMenuItem");
             DisplayProducts();
 
@@ -108,7 +136,7 @@ namespace demo_14_4
                 };
                 addButton.Click += AddButton_Click;
 
-                // ✅ Кнопка "Изменить стоимость" — сохраняем ссылку
+                
                 _changeCostButton = new Button
                 {
                     Name = "ChangeCostButton",
@@ -180,7 +208,6 @@ namespace demo_14_4
             var selectedCountText = this.FindControl<TextBlock>("SelectedCountText");
             selectedCountText.Text = $"Выбрано: {selectedProducts.Count}";
 
-            // Используем сохранённую ссылку на кнопку вместо поиска
             if (_changeCostButton != null)
             {
                 _changeCostButton.IsEnabled = selectedProducts.Count > 0;

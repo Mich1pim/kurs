@@ -1,7 +1,9 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using demoModels;
+using System;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace demo_14_4
 {
@@ -10,6 +12,25 @@ namespace demo_14_4
         public RegisterWindow()
         {
             InitializeComponent();
+        }
+
+        private bool ValidateCredentials(string login, string password)
+        {
+            if (!Regex.IsMatch(login, @"^[^@\s]+@[^@\s]+\.[^@\s]+$") ||
+                (!login.EndsWith(".com", StringComparison.OrdinalIgnoreCase) &&
+                 !login.EndsWith(".ru", StringComparison.OrdinalIgnoreCase)))
+            {
+                ErrorText.Text = "Ћогин должен быть email (содержать @ и заканчиватьс€ на .com или .ru)";
+                return false;
+            }
+
+            if (!Regex.IsMatch(password, @"^(?=.*[A-Z]).+$"))
+            {
+                ErrorText.Text = "ѕароль должен содержать хот€ бы одну заглавную букву";
+                return false;
+            }
+
+            return true;
         }
 
         private void RegisterButton_Click(object sender, RoutedEventArgs e)
@@ -21,7 +42,13 @@ namespace demo_14_4
             if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(password))
             {
                 ErrorText.Text = "«аполните все пол€";
-                ErrorText.IsVisible = true; 
+                ErrorText.IsVisible = true;
+                return;
+            }
+
+            if (!ValidateCredentials(login, password))
+            {
+                ErrorText.IsVisible = true;
                 return;
             }
 
@@ -46,7 +73,6 @@ namespace demo_14_4
 
             this.Close();
         }
-
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
